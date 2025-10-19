@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/splash_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/manzana_seleccion"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Selecciona tus alimentos disponibles"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tu plan depende de tus elecciones"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_marginBottom="24dp" />
+
+        <!-- PROTEÍNAS -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PROTEÍNAS - Elige al menos 2"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/ganar_musculo_color"
+            android:layout_marginBottom="12dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="20dp">
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+                <CheckBox android:id="@+id/cb_pollo" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="🐔 Pollo" />
+                <CheckBox android:id="@+id/cb_carne" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="🥩 Carne" />
+                <CheckBox android:id="@+id/cb_pescado" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="🐟 Pescado" />
+            </LinearLayout>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+                <CheckBox android:id="@+id/cb_atun" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="🐟 Atún" />
+                <CheckBox android:id="@+id/cb_langosta" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="🦞 Langosta" />
+                <CheckBox android:id="@+id/cb_huevo" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="🥚 Huevo" />
+            </LinearLayout>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+                <CheckBox android:id="@+id/cb_pavo" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Pavo" />
+                <CheckBox android:id="@+id/cb_chancho" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Chancho" />
+                <CheckBox android:id="@+id/cb_jamon" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Jamón" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- CARBOHIDRATOS -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CARBOHIDRATOS - Elige al menos 3"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/mantener_peso_color"
+            android:layout_marginBottom="12dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="20dp">
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+                <CheckBox android:id="@+id/cb_arroz" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="🍚 Arroz" />
+                <CheckBox android:id="@+id/cb_papa" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="🥔 Papa" />
+                <CheckBox android:id="@+id/cb_camote" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="🍠 Camote" />
+            </LinearLayout>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+                <CheckBox android:id="@+id/cb_yuca" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Yuca" />
+                <CheckBox android:id="@+id/cb_lentejas" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Lentejas" />
+                <CheckBox android:id="@+id/cb_frijoles" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Frijoles" />
+            </LinearLayout>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+                <CheckBox android:id="@+id/cb_garbanzo" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Garbanzo" />
+                <CheckBox android:id="@+id/cb_arveja" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Arveja" />
+                <CheckBox android:id="@+id/cb_quinua" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Quinua" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- GRASAS -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GRASAS - Elige al menos 2"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/perder_grasa_color"
+            android:layout_marginBottom="12dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="20dp">
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+                <CheckBox android:id="@+id/cb_palta" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="🥑 Palta" />
+                <CheckBox android:id="@+id/cb_mani" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="🥜 Maní" />
+                <CheckBox android:id="@+id/cb_mantequilla_mani" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="🥜 Mant. Maní" />
+
+            </LinearLayout>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+                <CheckBox android:id="@+id/cb_almendra" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Almendra" />
+                <CheckBox android:id="@+id/cb_pecanas" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Pecanas" />
+                <CheckBox android:id="@+id/cb_nueces" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Nueces" />
+
+                <CheckBox
+                    android:id="@+id/cb_pina"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Piña" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- FRUTAS -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FRUTAS - Elige al menos 2"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/primary_color"
+            android:layout_marginBottom="12dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="32dp">
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+                <CheckBox android:id="@+id/cb_platano" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="🍌 Plátano" />
+                <CheckBox android:id="@+id/cb_fresas" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="🍓 Fresas" />
+                <CheckBox android:id="@+id/cb_manzana" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="🍎 Manzana" />
+            </LinearLayout>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+                <CheckBox android:id="@+id/cb_arandano" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Arándano" />
+
+                <CheckBox android:id="@+id/cb_papaya" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Papaya" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnCrearPlan"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:backgroundTint="@color/primary_color"
+            android:text="Crear Mi Plan"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+</ScrollView>

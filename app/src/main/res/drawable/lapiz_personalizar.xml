@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    
+    <!-- Cuerpo del lápiz -->
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M30,30 L90,30 L90,90 L30,90 Z" />
+    
+    <!-- Punta del lápiz -->
+    <path
+        android:fillColor="#8D6E63"
+        android:pathData="M90,30 L110,60 L90,90 Z" />
+    
+    <!-- Goma de borrar -->
+    <path
+        android:fillColor="#E91E63"
+        android:pathData="M20,35 L30,35 L30,85 L20,85 Z" />
+    
+    <!-- Líneas del lápiz -->
+    <path
+        android:strokeColor="#FF8F00"
+        android:strokeWidth="2"
+        android:pathData="M40,40 L80,40 M40,50 L80,50 M40,60 L80,60 M40,70 L80,70 M40,80 L80,80" />
+
+</vector>

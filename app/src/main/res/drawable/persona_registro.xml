@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    
+    <!-- Cabeza -->
+    <path
+        android:fillColor="#FFB74D"
+        android:pathData="M60,30 C70,30 78,38 78,48 C78,58 70,66 60,66 C50,66 42,58 42,48 C42,38 50,30 60,30 Z" />
+    
+    <!-- Cuerpo -->
+    <path
+        android:fillColor="#42A5F5"
+        android:pathData="M45,66 L75,66 L75,100 L45,100 Z" />
+    
+    <!-- Brazos -->
+    <path
+        android:fillColor="#FFB74D"
+        android:pathData="M35,70 L45,70 L45,90 L35,90 Z" />
+    
+    <path
+        android:fillColor="#FFB74D"
+        android:pathData="M75,70 L85,70 L85,90 L75,90 Z" />
+
+</vector>

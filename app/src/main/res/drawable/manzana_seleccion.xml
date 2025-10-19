@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    
+    <!-- Manzana -->
+    <path
+        android:fillColor="#F44336"
+        android:pathData="M50,20 C65,20 75,30 75,45 C75,60 75,70 65,80 C55,85 45,85 35,80 C25,70 25,60 25,45 C25,30 35,20 50,20 Z" />
+    
+    <!-- Hoja -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M50,20 C55,15 60,18 58,25 C56,22 52,20 50,20 Z" />
+
+</vector>

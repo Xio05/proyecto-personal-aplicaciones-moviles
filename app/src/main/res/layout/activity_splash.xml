@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp"
+    android:background="@color/splash_background">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/comida_saludable"
+        android:layout_marginBottom="32dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Come Mejor"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Obtén Resultados"
+        android:textSize="24sp"
+        android:textColor="@android:color/darker_gray"
+        android:layout_marginBottom="64dp" />
+
+    <Button
+        android:id="@+id/btnComenzar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Comenzar"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/primary_color" />
+
+    <Button
+        android:id="@+id/btnIniciarSesion"
+        style="@style/Widget.Material3.Button.TextButton"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Iniciar Sesión"
+        android:textSize="18sp" />
+
+</LinearLayout>

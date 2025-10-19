@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_calcular_estadisticas"
+        android:title="Calcular Estadísticas"
+        android:icon="@android:drawable/ic_menu_agenda"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_sincronizar"
+        android:title="Sincronizar Datos"
+        android:icon="@android:drawable/ic_menu_rotate"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_procesar_datos"
+        android:title="Procesar en Background"
+        android:icon="@android:drawable/ic_menu_upload"
+        app:showAsAction="never" />
+
+</menu>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_alimentos"
+        android:icon="@android:drawable/ic_menu_gallery"
+        android:title="Alimentos" />
+
+    <item
+        android:id="@+id/nav_mi_dieta"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="Mi Dieta" />
+
+    <item
+        android:id="@+id/nav_estadisticas"
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:title="Estadísticas" />
+
+</menu>
