@@ -14,8 +14,8 @@
         <ImageView
             android:layout_width="150dp"
             android:layout_height="150dp"
-            android:src="@drawable/plato_comida"
-            android:layout_marginBottom="24dp" />
+            android:layout_marginBottom="4dp"
+            android:src="@drawable/img_4" />
 
         <TextView
             android:layout_width="match_parent"

@@ -121,20 +121,14 @@
             <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
                 <CheckBox android:id="@+id/cb_palta" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="🥑 Palta" />
                 <CheckBox android:id="@+id/cb_mani" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="🥜 Maní" />
-                <CheckBox android:id="@+id/cb_mantequilla_mani" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="🥜 Mant. Maní" />
 
             </LinearLayout>
             <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
-                <CheckBox android:id="@+id/cb_almendra" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Almendra" />
                 <CheckBox android:id="@+id/cb_pecanas" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Pecanas" />
                 <CheckBox android:id="@+id/cb_nueces" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Nueces" />
 
-                <CheckBox
-                    android:id="@+id/cb_pina"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="Piña" />
+
+
             </LinearLayout>
 
         </LinearLayout>
@@ -157,7 +151,6 @@
 
             <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
                 <CheckBox android:id="@+id/cb_platano" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="🍌 Plátano" />
-                <CheckBox android:id="@+id/cb_fresas" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="🍓 Fresas" />
                 <CheckBox android:id="@+id/cb_manzana" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="🍎 Manzana" />
             </LinearLayout>
             <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">

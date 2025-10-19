@@ -23,7 +23,7 @@ class SeleccionAlimentosActivity : AppCompatActivity() {
         val btnCrearPlan = findViewById<Button>(R.id.btnCrearPlan)
         btnCrearPlan.setOnClickListener {
             if (validarSelecciones()) {
-                val intent = Intent(this, DietaMainActivity::class.java)
+                val intent = Intent(this, MenuDietaActivity::class.java)
                 startActivity(intent)
                 finish()
             }
